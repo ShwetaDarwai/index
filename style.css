@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .rooms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .room {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  .girl-name {
+    text-align: left;
+    margin-left: 10px; 
+    display: flex;
+    align-items: baseline;
+  }
+  .room-number {
+    font-weight: bold;
+    font-size: 20px; 
+    padding: 5px 10px; 
+    margin: 10px; 
+  }
+  #SWAPSPOT {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #ff9900; /* Change to your preferred color */
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
